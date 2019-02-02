@@ -1,0 +1,25 @@
+{
+    "name": "altml",
+    "displayName": "altml",
+    "description": "this is an alternative language from html, easy to improve, easy to write, and extra speed",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.30.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "altml",
+            "aliases": ["altml", "altml"],
+            "extensions": [".altml"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "altml",
+            "scopeName": "source.altml",
+            "path": "./syntaxes/altml.tmLanguage.json"
+        }]
+    }
+}

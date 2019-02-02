@@ -1,0 +1,36 @@
+html{
+    head{
+        title{
+            text[
+                haha
+            ]
+        }
+    }
+    
+    body{
+        h1{
+            attr[
+                class=""
+                id="haha"
+            ]
+            text[
+                dian \n haha \n \n huhu huhu \n hhuuu {{print("a")}}
+            ]
+        }
+        h2{
+            
+            text[
+                alawy
+            ]
+        }
+        input{
+            attr[
+                class="form-control"
+                type="text"
+                value="haha"
+                label="a"
+            ]
+        }
+    }
+    
+}
